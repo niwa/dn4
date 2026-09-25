@@ -1,3 +1,5 @@
+blank_issues_enabled: false
+
 name: River network issue
 description: Report a problem with the river network
 title: ""
