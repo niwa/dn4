@@ -1,7 +1,5 @@
 name: River network issue
 description: Report a problem with the river network
-title: ""
-labels: []
 body:
   - type: textarea
     id: problem
