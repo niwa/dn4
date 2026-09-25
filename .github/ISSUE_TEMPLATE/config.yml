@@ -1,97 +1,11 @@
 blank_issues_enabled: false
 
-name: River network issue
-description: Report a problem with the river network
-title: ""
-labels: []
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for reporting an issue with the river network.
+contact_links:
+  - name: GitHub Community Support
+    url: https://github.com/orgs/community/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
 
-        Please provide as much information as possible. A labelled picture and
-        accurate location are manditory.
 
-  - type: textarea
-    id: problem
-    attributes:
-      label: Problem
-      description: |
-        Briefly describe the problem. For example:
-        - "Near Langdons Rd Ashburton, the network contains a river where in reality there isn't one."
-        - "The network doesn't have Lagmhor Creek."
-        - "Remington Creek is badly aligned with reality."
-      placeholder: Describe the problem...
-    validations:
-      required: true
-
-  - type: dropdown
-    id: type
-    attributes:
-      label: Issue type
-      description: |
-        If one of these applies, please select it.
-      options:
-        - alignment
-        - phantom
-        - missing
-        - Other / not sure
-    validations:
-      required: true
-
-  - type: textarea
-    id: location
-    attributes:
-      label: Location
-      description: |
-        Please provide coordinates if possible.
-
-        Coordinates can be:
-        1. EPSG:2193 (easting, northing in metres), or
-        2. EPSG:4326 (latitude, longitude).
-
-        A FENZ lake ID in the vicinity is also very useful for quickly
-        homing in on the location.
-      placeholder: |
-        EPSG:2193: 1234567, 5678901
-        FENZ lake ID: 12345
-    validations:
-      required: true
-
-  - type: textarea
-    id: picture
-    attributes:
-      label: Picture
-      description: |
-        Please attach a labelled picture showing the problem.
-      placeholder: Drag and drop an image here, or paste one into this box.
-
-  - type: textarea
-    id: source
-    attributes:
-      label: Source of information
-      description: |
-        How do you know the network is incorrect?
-
-        For example:
-        - NZ Topo50 maps
-        - Local knowledge (eg. you live, work or fish nearby)
-        - Council river network data
-        - LiDAR
-        - Other authoritative data
-      placeholder: Explain the source of your information...
-
-  - type: textarea
-    id: solution
-    attributes:
-      label: Possible solution
-      description: |
-        If you have an idea how the problem could be fixed, please describe it.
-
-        Examples:
-        - To remove a river, remove the head at (x, y).
-        - Add a sink at (x, y) if the river should go underground at that point.
-        - Burn a known-good river path. Providing a LineString in a GeoPackage
-          (gpkg) would be particularly useful.
-      placeholder: Describe a possible solution...
