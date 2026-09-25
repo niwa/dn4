@@ -1,5 +1,5 @@
 ---
-name: River network change
+name: River GITHUB network change
 about: To suggest river network changes and fixes
 title: Fix
 labels: ''

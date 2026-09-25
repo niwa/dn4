@@ -1,6 +1,6 @@
 name: River network issue
 description: Report a problem with the river network
-title: ""
+title: "River network issue"
 labels: []
 body:
   - type: markdown
