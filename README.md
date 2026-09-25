@@ -8,6 +8,6 @@ repository is simply to allow you to provide feedback, by submitting an
 [issue](https://github.com/niwa/dn4/issues).
 
 [This](https://github.com/niwa/dn4/issues/1) is an example of a misalignment
-problem.
+problem, and [this](https://github.com/niwa/dn4/issues/2) one is an example of a phantom river.
 
 
