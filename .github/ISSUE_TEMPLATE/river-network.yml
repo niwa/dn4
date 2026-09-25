@@ -90,6 +90,6 @@ body:
         Examples:
         - To remove a river, remove the head at (x, y).
         - Add a sink at (x, y) if the river should go underground at that point.
-        - Burn a known-good river path. Providing a LineString in a GeoPackage
-          (gpkg) would be particularly useful.
+        - Burn a known-good river path. Providing a LineString in a GeoJson
+          (with json extension since that is all github will allow) would be particularly useful.
       placeholder: Describe a possible solution...
