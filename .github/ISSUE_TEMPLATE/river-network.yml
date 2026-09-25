@@ -51,6 +51,9 @@ body:
 
         A FENZ lake ID in the vicinity is also very useful for quickly
         homing in on the location.
+
+        You may provide a river ID, but these do change with network version so please provide the other information
+        as well.
       placeholder: |
         EPSG:2193: 1234567, 5678901
         FENZ lake ID: 12345
