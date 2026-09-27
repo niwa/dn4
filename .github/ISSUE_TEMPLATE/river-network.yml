@@ -96,5 +96,5 @@ body:
         - Burn a known-good river path. Providing a LineString in a GeoJson
           (with json extension since that is all github will allow) would be particularly useful.
         - Remove secondary grey route, or add a new secondary route.  If adding a seconday route a zip file containing
-          your secondary route must be uploaded using [this](secondary_routing_format.html) format.
+          your secondary route must be uploaded using [this](https://github.com/niwa/dn4/blob/main/secondary_routing_format.md) format.
       placeholder: Describe a possible solution...
