@@ -9,7 +9,7 @@ body:
         Thanks for reporting an issue with the river network.
 
         Please provide as much information as possible. A labelled picture and
-        accurate location are manditory.
+        accurate location are mandatory.
 
   - type: textarea
     id: problem
@@ -18,7 +18,7 @@ body:
       description: |
         Briefly describe the problem. For example:
         - "Near Langdons Rd Ashburton, the network contains a river where in reality there isn't one."
-        - "The network doesn't have Lagmhor Creek."
+        - "The network doesn't have the grey secondary route near Lagmhor Creek."
         - "Remington Creek is badly aligned with reality."
       placeholder: Describe the problem...
     validations:
@@ -95,4 +95,6 @@ body:
         - Add a sink at (x, y) if the river should go underground at that point.
         - Burn a known-good river path. Providing a LineString in a GeoJson
           (with json extension since that is all github will allow) would be particularly useful.
+        - Remove secondary grey route, or add a new secondary route.  If adding a seconday route a zip file containing
+          your secondary route must be uploaded using [this](secondary_routing_format.html) format.
       placeholder: Describe a possible solution...
