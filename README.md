@@ -7,7 +7,9 @@ All instructions on viewing the network are available on the MfE site, this
 repository is simply to allow you to provide feedback, by submitting an
 [issue](https://github.com/niwa/dn4/issues).
 
-[This](https://github.com/niwa/dn4/issues/1) is an example of a misalignment
-problem, and [this](https://github.com/niwa/dn4/issues/2) one is an example of a phantom river.
+Here are three examples:
 
+* [this](https://github.com/niwa/dn4/issues/1) is an example of a misalignment problem,
+* [this](https://github.com/niwa/dn4/issues/2) one is an example of a phantom river,
+* and [here](https://github.com/niwa/dn4/issues/3) is a missing grey canal.
 
